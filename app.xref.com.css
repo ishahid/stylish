@@ -1,35 +1,37 @@
-.navbar-brand[_ngcontent-c2] {
+.navbar > .container-fluid {
     background: #000000;
-    border-bottom: 0px;
 }
 
-.navbar-brand[_ngcontent-c2]:hover {
-    background: #000000;
-    border-bottom: 0px;
+.navbar-brand[_ngcontent-c1] {
+	background: #000000;
+    border-bottom-width: 0;
+}
+
+.navbar-brand[_ngcontent-c1]:hover {
+	background: #000000;
+    border-bottom-width: 0;
 }
 
 .header-logo{
 	content:url("https://xref-assets.xref.com/images/xref-logo/xref-medium-white-2.png");
 }
 
-.navbar[_ngcontent-c2] {
-    background: #000000;
-}
-
-.user-label[_ngcontent-c2] {
-    color: #ffffff;
+.company-name {
+    color: #ffffff !important; font-weight: 500;
 }
 
 button[style] {
     color: #ffffff !important; font-weight: 500;
 }
 
-.navbar-inverse[_ngcontent-c2] .navbar-nav[_ngcontent-c2] > li[_ngcontent-c2] > a[_ngcontent-c2] {
-    color: #ffffff;
+.settings-menu > .fa-cog {
+    color: #ffffff !important; font-weight: 500;
 }
 
-/*
-.sidebar[_ngcontent-c3] {
-	background: #000000;
+.region {
+    color: #ffffff !important; font-weight: 500;
 }
-*/
+
+.user-name {
+    color: #ffffff !important; font-weight: 500;
+}
